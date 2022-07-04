@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 30px;
+    background-image: linear-gradient(45deg, black, transparent);
+}
+a {
+    text-decoration: none;
+}
+header h1 {
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive;
+}
+header .social a {
+    color: #7f0707;
+    font-size: 20px;
+    padding: 0px 8px;
+}
+/* Home */
+.home {
+    margin: 30px auto;
+    width: 80%;
+    border: 3px solid #646464;
+    border-style: dotted;
+}
+#addItems {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    width: 150px;
+    background-color: #646464;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 19px;
+    margin: auto;
+    cursor: pointer;
+}
+input, label {
+    width: 60%;
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid #646464 ;
+    border-radius: 5px;
+    font-size: 20px;
+}
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tasks {
+    padding: 15px;
+}
+.tasks .item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.tasks .item:first-child {
+    border-top: 2px solid black;
+}
+@media (max-width: 600px) {
+    .home {
+        width: 95%;
+    }
+    button {
+        width: 120px;
+        border-radius: 3px;
+        height: 45px;
+        font-size: 17px;
+    }
+    input, label {
+        width: 55%;
+    }
+}

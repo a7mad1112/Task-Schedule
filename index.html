@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="all.min.css">
+    <!-- Google Foonts -->
+    <!-- Logo Foont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@200;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;800&family=Source+Sans+Pro:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <title>Task schedule</title>
+</head>
+<body onload="addFromLocalStorage()">
+    <header>
+        <a href="#"><h1>tasks schedule</h1></a>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100044925130847"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/a7mad.1112/?r=nametag&fbclid=IwAR0Ap6ccZrzJELdf3vi4Td1eFoiccDRggaLVCE9Ku1V59uUoFGrTpTb5pDY"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/a7mad1112"><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/a7mad1112"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </header>
+    <div class="home">
+        <div class="addItems" id="addItems">
+            <input type="text" id="inputText">
+            <button onclick="addItem()">Add Item</button>
+        </div>
+        <div class="tasks" id="tasks">
+            <!-- <div class="item">
+                <label>Task</label>
+                <button onclick="removeItem()">Remove Item</button>
+            </div> -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
